@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    
+    --primary-color: #333333;
+    --secundary-color: #A5A5A5;
+    --tertiary-color: #FF9F0B;
+    --background-color: rgb(1, 1, 1);
+    --text-color: #FFF;
+    --text-color-secundary: #000;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'karla', sans-serif;
+    position: relative;
+    align-items: center;
+
+}

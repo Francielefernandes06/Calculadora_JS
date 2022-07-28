@@ -1,0 +1,42 @@
+.corpo-calc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 680px;
+    border: 2px solid;
+    background-color: black;
+}
+.corpo-calc table{
+    width: 100%;
+}
+
+.visor{
+    width: 98%;
+    height: 136px;
+    border-radius: 33px;
+    font-size: 30px;
+    text-align: end;
+}
+.btn, .btn-span{
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+    border: 0;
+    font-size: 33px;
+    color: var(--text-color);
+    margin: 5px 0;
+}
+.igualdade{
+    width: 287px;
+}
+.operadores{
+    background-color: var(--tertiary-color)
+}
+.num{
+    background-color: var(--primary-color);
+}
+.atb{
+    background-color: var(--secundary-color);
+    color: var(--text-color-secundary);
+}
