@@ -1,4 +1,8 @@
+
+
+
 // Limpar os dados do visor.
+
 function limpar() {
   document.getElementById('visor').value = '';
 }
