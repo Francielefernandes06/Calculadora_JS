@@ -3,8 +3,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 680px;
-    border: 2px solid;
+    width: 385px;
+    height: 710px;
+    border-radius: 20px;    
     background-color: black;
 }
 .corpo-calc table{
@@ -12,10 +13,11 @@
 }
 
 .visor{
-    width: 98%;
+    margin-top: 10px;
+    width: 90%;
     height: 136px;
     border-radius: 33px;
-    font-size: 30px;
+    font-size: 60px;
     text-align: end;
 }
 .btn, .btn-span{
@@ -28,7 +30,7 @@
     margin: 5px 0;
 }
 .igualdade{
-    width: 287px;
+    width: 257px;
 }
 .operadores{
     background-color: var(--tertiary-color)
@@ -39,4 +41,22 @@
 .atb{
     background-color: var(--secundary-color);
     color: var(--text-color-secundary);
+}
+tbody{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+tbody tr{
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+.igual{
+    gap: 16px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
 }
